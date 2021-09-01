@@ -1,9 +1,9 @@
 extends layout
 
 block content
-  h1= "财政局人事管理系统"
+  h1= "石首市财政局人事管理系统"
   p 按姓名查询
-  form(method='POST')
+  form(method='POST', action='/query')
     div
       input(type='text', name='name')
       input(type='submit' value='按姓名查询')

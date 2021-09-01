@@ -15,6 +15,7 @@
     "pug": "2.0.0-beta11"
   },
   "devDependencies": {
+    "node-xlsx": "^0.17.1",
     "post-parser": "^1.0.0"
   }
 }

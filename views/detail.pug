@@ -1,8 +1,54 @@
 extends layout
 
 block content
-    h1= name
+    h1= name+"的详细信息"
     table(style="width:100%;", border=1)
         tr
-            td name
+            td 姓名
             td #{name}
+            td 性别
+            td #{gender}
+            td 出生年月
+            td #{dob}
+        tr
+            td 民族
+            td #{nation}
+            td 籍贯
+            td #{np}
+            td 出生地
+            td #{pob}
+        tr
+            td 入党时间
+            td #{dop}
+            td 参加工作时间
+            td #{dow}
+            td 健康状况
+            td #{health}
+        tr
+            td 专业技术职务
+            td #{ptp}
+        tr
+            td 全日制教育
+            td #{fte}
+            td 毕业院校及专业
+            td #{fts}
+        tr
+            td 在职教育
+            td #{ce}
+            td 毕业院校及专业
+            td #{cs}
+        tr
+            td 现任职务
+            td #{position}
+        tr
+            td 简历
+            td #{cv}
+        tr
+            td 奖惩情况
+            td #{rap}
+        tr
+            td 年度考核结果
+            td #{assessment}
+        tr
+            td 家庭主要成员及重要社会关系
+            td #{relationship}
