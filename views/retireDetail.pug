@@ -1,0 +1,35 @@
+extends layout
+
+block content
+    h1= name+"的详细信息"
+    table(style="width:100%;", border=1)
+        tr
+            td 姓名
+            td #{name}
+        tr
+            td 性别
+            td #{tender}
+        tr
+            td 出生年月
+            td #{dob}
+        tr
+            td 参加工作时间
+            td #{dow}
+        tr
+            td 入党时间
+            td #{dop}
+        tr
+            td 文化程度
+            td #{edu}
+        tr
+            td 退休前曾任职务
+            td #{pos}
+        tr
+            td 批准退休时间
+            td #{dot}
+        tr
+            td 批准退休单位（部门）
+            td #{aor}
+        tr
+            td 备注
+            td #{ps}

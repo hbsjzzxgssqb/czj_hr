@@ -8,6 +8,7 @@ const bodyParser = require('body-parser');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const queryRouter = require('./routes/query');
+const queryretireRouter = require('./routes/queryRetire');
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/query', queryRouter);
+app.use('/queryRetire', queryretireRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
